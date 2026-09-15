@@ -6,7 +6,7 @@
 
 Aha is a Codex skill that helps you build understanding. When you get stuck while reading, writing code, or learning a concept, bring that sticking point into the conversation. Start from what you already understand and work through the key connections, underlying mechanisms, and the “why.”
 
-> v0.1.0 · Public preview
+> v0.1.1 · Public preview
 
 ## When to use it
 
@@ -46,8 +46,8 @@ See [Installation](#installation) below for setup instructions.
 Aha uses your question, existing understanding, and feedback during the conversation to choose a suitable form of support:
 
 - **Build a framework:** See what problem a concept addresses and where it fits in the broader system.
-- **Explain the mechanism:** Work through key steps and causal relationships, filling in relevant foundations.
-- **Use examples and analogies:** Start with a familiar situation, then connect it back to the actual concept.
+- **Explain the mechanism:** Fill in important intermediate steps, give technical terms concrete meanings, and explain what happens at each step and why it follows.
+- **Use examples and analogies:** Start with a familiar situation, follow the key changes through one simple example, then connect it back to the actual concept and its limits.
 - **Use questions to support reasoning:** When you want to reason further, explore connections and examine assumptions.
 
 If an explanation or question is not helping, Aha adjusts the scope, pace, or type of support based on your feedback. You can also state your preferences directly:
@@ -71,13 +71,13 @@ You need a working Codex setup and permission to install local skills. Aha itsel
 Send the following message to Codex:
 
 ```text
-Please use $skill-installer to install Aha v0.1.0:
-https://github.com/CatDisgust/aha-skill/tree/v0.1.0/skills/aha
+Please use $skill-installer to install Aha v0.1.1:
+https://github.com/CatDisgust/aha-skill/tree/v0.1.1/skills/aha
 ```
 
 ### Option 2: Install the ZIP manually
 
-1. Download [aha-v0.1.0.zip](https://github.com/CatDisgust/aha-skill/releases/download/v0.1.0/aha-v0.1.0.zip) and extract the `aha` folder.
+1. Download [aha-v0.1.1.zip](https://github.com/CatDisgust/aha-skill/releases/download/v0.1.1/aha-v0.1.1.zip) and extract the `aha` folder.
 2. Place the entire `aha` folder in your user-level skills directory, `~/.agents/skills/`. Create that directory if it does not exist.
 3. Confirm that the instructions are at `~/.agents/skills/aha/SKILL.md`.
 
@@ -85,13 +85,17 @@ https://github.com/CatDisgust/aha-skill/tree/v0.1.0/skills/aha
 
 After installation, use `$aha` in your next message to start a conversation. If Codex does not recognize it, restart Codex and try again.
 
+### Updating an existing installation
+
+Download the new ZIP and locate your existing Aha installation. Move the old `aha` folder outside the skills directories as a backup, then put the new `aha` folder in the same location. Preserve any custom instructions you have added before replacing it, and avoid installing a second copy in another skills directory. To roll back, restore the backup.
+
 For installation and directory details, see the [official Codex skills documentation](https://learn.chatgpt.com/docs/build-skills).
 
 ## Status and feedback
 
 - The skill has passed format checks, and the source files have been checked against the distribution package.
-- Explicit invocation, direct-explanation requests, and pause requests were checked using Codex CLI 0.153.4 / gpt-6-astra.
-- Learning outcomes have not been systematically evaluated.
+- This version's teaching instructions have undergone limited checks for explicit invocation, direct explanations, concise definitions, hints, and pause requests using Codex CLI 0.153.4 / gpt-6-astra.
+- Independent understanding, transfer, and long-term learning outcomes have not been systematically evaluated.
 - This version provides instructions for Codex; compatibility with other tools has not been verified.
 
 “Let understanding come naturally” describes the experience we aim to create. Actual behavior depends on the model, conversation context, and question.
