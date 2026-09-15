@@ -1,0 +1,12 @@
+# Local build output
+/dist/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Local settings and credentials
+.env
+.env.*
