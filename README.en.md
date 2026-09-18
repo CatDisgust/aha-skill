@@ -6,7 +6,7 @@
 
 Aha is a Codex skill that helps you build understanding. When you get stuck while reading, writing code, or learning a concept, bring that sticking point into the conversation. Start from what you already understand and work through the key connections, underlying mechanisms, and the “why.”
 
-> v0.1.1 · Public preview
+> v0.1.2 · Public preview. Try it and share your feedback.
 
 ## When to use it
 
@@ -19,7 +19,9 @@ When you find yourself in situations like these:
 
 Bring your question, relevant material, or current thinking to Aha. You do not need to diagnose your exact sticking point before starting.
 
-The first version focuses on computer science, artificial intelligence, software engineering, and systems concepts.
+Aha is not limited to a particular subject. It can support understanding of concepts, phenomena, the meaning of material, and reasoning processes.
+
+You can ask "What does this passage mean?" or "Why does this step follow?", or say "That is still too abstract." Aha uses your intent and context to guide its support. Include `$aha` to explicitly request it; reliable automatic selection still needs evaluation.
 
 ## Your first conversation
 
@@ -71,13 +73,13 @@ You need a working Codex setup and permission to install local skills. Aha itsel
 Send the following message to Codex:
 
 ```text
-Please use $skill-installer to install Aha v0.1.1:
-https://github.com/CatDisgust/aha-skill/tree/v0.1.1/skills/aha
+Please use $skill-installer to install Aha v0.1.2:
+https://github.com/CatDisgust/aha-skill/tree/v0.1.2/skills/aha
 ```
 
 ### Option 2: Install the ZIP manually
 
-1. Download [aha-v0.1.1.zip](https://github.com/CatDisgust/aha-skill/releases/download/v0.1.1/aha-v0.1.1.zip) and extract the `aha` folder.
+1. Download [aha-v0.1.2.zip](https://github.com/CatDisgust/aha-skill/releases/download/v0.1.2/aha-v0.1.2.zip) and extract the `aha` folder.
 2. Place the entire `aha` folder in your user-level skills directory, `~/.agents/skills/`. Create that directory if it does not exist.
 3. Confirm that the instructions are at `~/.agents/skills/aha/SKILL.md`.
 
@@ -94,7 +96,7 @@ For installation and directory details, see the [official Codex skills documenta
 ## Status and feedback
 
 - The skill has passed format checks, and the source files have been checked against the distribution package.
-- This version's teaching instructions have undergone limited checks for explicit invocation, direct explanations, concise definitions, hints, and pause requests using Codex CLI 0.153.4 / gpt-6-astra.
+- v0.1.1 underwent limited checks for explicit invocation, direct explanations, concise definitions, hints, and pause requests using Codex CLI 0.153.4 / gpt-6-astra. Four additional requests in this version did not name the skill: three understanding requests loaded Aha, while one translation-only request was handled directly. Reliable selection and effectiveness across subjects still need evaluation.
 - Independent understanding, transfer, and long-term learning outcomes have not been systematically evaluated.
 - This version provides instructions for Codex; compatibility with other tools has not been verified.
 

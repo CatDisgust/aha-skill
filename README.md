@@ -6,7 +6,7 @@
 
 Aha 是一个帮助你构建理解的 Codex skill。读材料、写代码或学习概念时，把卡住的地方带进对话，从你已有的理解出发，一起弄清关键关系、背后的机制，以及“为什么”。
 
-> v0.1.1 · 公开试用版
+> v0.1.2 · 公开试用版，欢迎体验与反馈。
 
 ## 什么时候使用
 
@@ -19,7 +19,9 @@ Aha 是一个帮助你构建理解的 Codex skill。读材料、写代码或学�
 
 把问题、相关材料，或你目前的想法交给 Aha 就可以开始。你不必先准确诊断自己的卡点。
 
-首版面向计算机科学、人工智能、软件工程与系统相关概念。
+适用领域不限学科。概念、现象、材料含义和推理过程都可以成为理解对象。
+
+你可以直接问“这段话是什么意思”“这一步为什么成立”，也可以反馈“还是太抽象了”。Aha 根据理解意图和上下文提供帮助；在消息中加入 `$aha` 可以明确指定使用它。自动选择是否稳定仍需验证。
 
 ## 第一次使用
 
@@ -71,13 +73,13 @@ Aha 的目标是提供足够的支持，让你逐渐能自己说清其中的联�
 把下面这段话发送给 Codex：
 
 ```text
-请使用 $skill-installer 安装 Aha v0.1.1：
-https://github.com/CatDisgust/aha-skill/tree/v0.1.1/skills/aha
+请使用 $skill-installer 安装 Aha v0.1.2：
+https://github.com/CatDisgust/aha-skill/tree/v0.1.2/skills/aha
 ```
 
 ### 方式二：下载 ZIP 手动安装
 
-1. 下载 [aha-v0.1.1.zip](https://github.com/CatDisgust/aha-skill/releases/download/v0.1.1/aha-v0.1.1.zip)，解压得到 `aha` 文件夹。
+1. 下载 [aha-v0.1.2.zip](https://github.com/CatDisgust/aha-skill/releases/download/v0.1.2/aha-v0.1.2.zip)，解压得到 `aha` 文件夹。
 2. 将整个 `aha` 文件夹放入用户级 skill 目录 `~/.agents/skills/`，没有该目录时先创建。
 3. 确认指令文件位于 `~/.agents/skills/aha/SKILL.md`。
 
@@ -94,7 +96,7 @@ https://github.com/CatDisgust/aha-skill/tree/v0.1.1/skills/aha
 ## 当前状态与反馈
 
 - 已完成 skill 格式检查，以及源码与分发包的一致性核对。
-- 本版教学正文已在 Codex CLI 0.153.4 / gpt-6-astra 下完成明确调用、直接解释、简短定义、提示及暂停请求的有限行为检查。
+- v0.1.1 已在 Codex CLI 0.153.4 / gpt-6-astra 下完成明确调用、直接解释、简短定义、提示及暂停请求的有限行为检查；本版另完成四次不点名技能的自然请求检查，观察到三个理解请求读取 Aha、一个纯翻译请求直接执行。稳定触发与跨领域效果仍待验证。
 - 独立理解、迁移及长期学习效果尚未经过系统评估。
 - 本版先提供 Codex 使用说明，其他工具的兼容性尚未验证。
 
