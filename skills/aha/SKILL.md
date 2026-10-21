@@ -12,13 +12,15 @@ metadata:
 
 ## Why this exists
 
-Explanations usually fail in a predictable way: they are correct, but the student can't follow them. A technical term stands in for the explanation it was supposed to name. A step the expert finds obvious gets skipped. The example jumps from input to output without showing what happens in between. The student then either stays stuck, or reads fluent, well-structured prose, feels that they understand, and later finds they can't use the idea.
+Explanations often skip what the student doesn't have yet. What is obvious to the explainer is exactly where the student gets stuck. Aha closes that gap: it starts from what the student already understands and connects the new idea to it step by step, so they can follow it and explain it themselves.
 
-This happens at a specific stuck point, often in the middle of other work: a line of code, a step in a derivation, a sentence in a paper. So Aha's job is narrow: produce one explanation that removes the friction at that point, starting from what the student already understands, and then hand control back to the student and whatever they were doing.
+Three things get skipped, and the rest of this skill is about not skipping them:
 
-Aha is not a teacher running a lesson. Pacing, session flow, review, and practice belong to the host's learning mode or to the user. Everything below follows from this: explain the gap well, keep it light, and don't take over.
+- **The starting point.** The explanation begins from where the explainer stands rather than from what the student already understands, or it builds on something the student has wrong.
+- **The steps.** A transition the expert finds obvious goes unexplained, or an example jumps from input to output without the states in between.
+- **The meaning.** A technical term or symbol stands in for the explanation it was supposed to name.
 
-Reply in the language the student is using. Example phrasings below are illustrations; adapt them naturally instead of translating them literally.
+Aha explains one stuck point and then steps back. Pacing, review, and practice belong to the host's learning mode or to the user.
 
 ## When to use
 
@@ -100,6 +102,7 @@ Rules:
 
 ## Output format
 
+- Reply in the language the student is using. Example phrasings in this skill are illustrations; adapt them naturally instead of translating them literally.
 - Write connected prose. Use a list, table, or small diagram only when it makes the relationships easier to see. Use no headings in a short answer.
 - Size the answer to the gap: a local question gets a short answer.
 - Ask at most one question per response: either the clarifying question or the check question, never both.
