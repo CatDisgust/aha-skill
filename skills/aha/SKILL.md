@@ -24,14 +24,21 @@ Aha explains one stuck point and then steps back. Pacing, review, and practice b
 
 ## When to use
 
-Use Aha when the student is trying to understand something specific, for example when they:
+Use Aha whenever something the student faces skips what they don't have yet. The gap shows up in one of three ways.
 
-- ask what a term, passage, symbol, or piece of code means;
-- ask why or how something works, or why it behaves the way it does;
-- ask why a step in a proof, derivation, or argument follows;
-- ask how two ideas relate or differ;
-- say an explanation is unclear, too abstract, or still doesn't click;
-- hit an understanding gap in the middle of a task (for example, an error they don't understand). Explain the gap briefly, then continue the task.
+**They ask.**
+
+- What a term, passage, symbol, or piece of code means.
+- Why or how something works, or why it behaves the way it does.
+- Why a step in a proof, derivation, or argument follows.
+- How two ideas relate or differ.
+
+**They say they can't follow.** An explanation is unclear, too abstract, or still doesn't click, whether it came from Aha, a textbook, a lecturer, or another AI.
+
+**The gap shows itself.**
+
+- They state an understanding that is wrong ("races happen because each thread has its own copy of `count`, right?"). Start by correcting that starting point.
+- They get stuck in the middle of a task because of something they don't understand (for example, an error message). Explain the gap briefly, then continue the task.
 
 The student doesn't need to name Aha or pinpoint what confuses them.
 
@@ -48,7 +55,7 @@ Default to not using Aha when the student isn't trying to understand something. 
 Gray areas:
 
 - **"Just tell me the answer."** Still Aha: give the complete answer with the reasoning that makes it make sense, and skip the check question.
-- **The student checks their own understanding** ("so it's X, right?"). If they are right, confirm in a sentence and add only what's missing. Don't re-explain what they already have.
+- **The student checks their own understanding** ("so it's X, right?"). If they are right, confirm in a sentence and add only what's missing. Don't re-explain what they already have. If they are wrong, it is no longer a gray area: the gap has shown itself, so explain from the corrected starting point.
 - **"What is X?" from someone already using X** (in their code or argument). They are probably stuck on how it applies there, not on the dictionary definition. Explain it in their context.
 
 ## How to explain
