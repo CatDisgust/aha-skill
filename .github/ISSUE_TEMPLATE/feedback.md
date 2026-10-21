@@ -20,6 +20,6 @@ assignees: ""
 
 ### 使用环境
 
-- Codex 形态及版本（如桌面版、CLI、IDE 扩展；不知道版本可留空）：
+- 平台及版本（如 Codex 桌面版、Codex CLI、Claude Code、claude.ai；不知道版本可留空）：
 - 模型：
 - Aha 版本：
